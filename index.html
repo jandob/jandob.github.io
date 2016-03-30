@@ -3,7 +3,14 @@
     <head>
         <title>jandob - Janosch Dobler</title>
         <meta charset=utf-8>
-        <meta http-equiv=Refresh content="0; url=http://jandob.github.io/website/">
+        <meta http-equiv=Refresh content="0; url=http://jandob.com">
+        <link rel="canonical" href="http://projectname.io{{ page.url }}"/>
+        <script>
+            if (window.location.href.indexOf('http://jandob.com') === 0) {
+                window.location.href = 'http://jandob.com';
+            }
+        </script>
     </head>
     <body></body>
 </html>
+
